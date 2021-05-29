@@ -1,6 +1,8 @@
-A seguir condensados da estrutura básica do **RUBY Básico** com exemplos
+Condensados da estrutura básica do **RUBY**.
 
 Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assunto 
+
+
 
 **Geral** 
 
@@ -90,9 +92,9 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 
 **gets** -> entrada de dados pelo teclado ( 7_entrada de dados.rb )
 
-**Desvios condicionais ( 8_desvios condicionais.rb)**
+**Desvios condicionais** ( 8_desvios condicionais.rb)
 
-​	if else elsie end
+​	if else elsif end
 
 ​	unless end
 
@@ -106,7 +108,7 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 
 ​	**\>**  maior que 
 
-​	\**<** menor que
+​	**\<** menor que
 
 ​	**\>=** maior ou igual
 
@@ -124,7 +126,7 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 
 
 
-**Laços ( 9_laços.rb)**
+**Laços** ( 9_laços.rb)
 
 ​	while end
 
