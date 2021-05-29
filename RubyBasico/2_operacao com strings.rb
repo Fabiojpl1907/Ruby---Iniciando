@@ -18,7 +18,7 @@ p nome[0]
 p nome.chars  # retorna um array formada a partir da string
 p nome.chars.length
 
-p nome[0,2] # pegar uma sub-string , informo o inicio e quantos carctres eu quero  
+p nome[0,2] # pegar uma sub-string , informo o inicio e quantos carcteres eu quero  
 
 # multiplicação de strings
 puts "Cabeçalho"
@@ -65,3 +65,16 @@ p lista2.class
 # indicando separador a ser usado 
 lista = "nome-1-nome2-texto3"
 p lista.split("-")
+
+# heredoc - objeto com um texto extenso
+# delimitador - uma tag que escolho para indicar onde inicia e termina o texto 
+# no exemplo o delimitador é a palvra -> teste 
+texto = <<~teste
+Ola Bom dia a todos
+
+este é um teste em Ruby 
+
+Grato
+teste
+
+puts texto

@@ -1,40 +1,8 @@
 Contem programas criados nas aulas inicias de Ruby na DIO 
 
-Cada programa esta ligado a uma das aulas do Prof. carlos 
+Cada programa esta ligado as aulas do Prof. Carlos, numerados  e nomeados na sequencia de apresentação  
 
-contem os conceitos ensinados e programas criados em aulas
+Os programas contem os conceitos ensinados e programas criados em aulas
 
-A seguir condensados da Estrutura do RUBY
-
-**Geral** 
-
-​	Em ruby parenteses são opcionais 
-
-​	String é uma lista de cacteres com indice inicial 0 (zero )
-
-**Comandos** 
-
-**#**  -> Inserir comentário
-
-**=**  -> atribuição de valor a uma variável
-
-​	nome = "Pedro" 
-
-​	idade = 15
-
-**puts / p** -> Imprimir na tela
-
-​	puts "Bom dia" 
-
-​	puts("Bom dia")
-
-**#{}**  -> Interpolação ( colocar execução de código ruby em uma string )
-
-​	nome = "Maria" 
-
-​	texto = %Q( Bem vindo #{nome}) 
-
-​	puts "Bem vindo #{nome}"
-
-​	puts "O total é #{ 1 + 5 }"
+Os arquivos auxiliares ( .md ) contem um condensado dos comandos e conceitos apresentados dentro de cada modulo. 
 

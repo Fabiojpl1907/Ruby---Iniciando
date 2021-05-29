@@ -1,4 +1,4 @@
-# EStrutura de chave-valor
+# Estrutura de chave-valor
 # permite acessar um valor por pesquisa
 
 # inicializando
@@ -6,7 +6,7 @@
 hash = {}
 hash = Hash.new
 
-# chaves e valores podem ser de qualuer tipo
+# chaves e valores podem ser de qualquer tipo
 # chave => valor
 
 h = { "nome" => "Fabio", "idade" => 60}

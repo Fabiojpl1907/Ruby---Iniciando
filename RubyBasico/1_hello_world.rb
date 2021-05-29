@@ -2,15 +2,6 @@
 # comentario - ira aprsentar hello world
 puts "Hello wordl"
 
-# heredoc
-texto = <<~Delimitador
-Ola Bom dia a todos
-
-este é um teste em Ruby 
-
-Grato
-Delimitador
-
 puts texto
 
 # %q

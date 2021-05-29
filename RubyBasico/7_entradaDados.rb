@@ -1,4 +1,4 @@
-# enFtrar dadts pelo teclado
+# Entrada de dados pelo teclado
 
 # por padrão o gets acrescenta um line feed \n 
 

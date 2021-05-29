@@ -4,7 +4,7 @@
 lista = []
 lista1 = Array.new  # ( instancia um novo objeto da classe )
 
-# em Ruby posso ter elemntos de tipos diferentes
+# em Ruby posso ter elementos de tipos diferentes
 lista = [ 1 , "A" , "Teste", 2.1 ]
 puts lista[1]  # acessando o segundo elemnto da lista
 
