@@ -10,6 +10,8 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 
 - Em ruby parenteses são opcionais 
 
+- No Ruby tudo é objeto
+
 - String é uma lista de cacteres com indice inicial zero
 
 - Manipulação de strings  ( 2_operação com string.rb )
@@ -20,9 +22,33 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 
 - Site com documentação do Ruby :   https://ruby-doc.org/
 
+- Rails - framework para aplicação web
+
+- MVC - modo view controller 
+
+- Gems - biblioteca de código compartilhas entre a comunidade :  [rubygems.org](http://rubygems.org)
+
+- WSL - cria ambiente Linux no Windows
+
+- IDE -> RubyMine ( assinatura cara)
+
+- Nil -> Nulo
+
+- DEfinir função / método -> def ...end
+
 - Exercício palindromo ( 12_palindromo.rb)
 
+- 
+
   
+
+**Tipagem**
+
+​	Tipagem dinamica - apresento o dado e a variavel assume o tipo
+
+​	Tipagem forte - não permite conversão automática de tipo de dados
+
+
 
 **Comandos** 
 
@@ -60,15 +86,67 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 
 ​	numero.public_methods. # retornar os métodos de um objeto integre
 
-
+Posso executar métodos com interpolação 
 
 **:**  -> Simbolo. Cria um objeto unico . ( 4_simbolos.rb )
+
+**Strings**
+
+​	Entre aspas ou apóstrofes, %q
+
+​	Nome = “Fabio” - > aceita códigos escape 
+
+​		\n  nova linha
+
+​		\t  tab
+
+​		\”  Aspas 
+
+
+
+​	Interpolação - > *Somente se criei a string usando **“ ”*** *aspas*
+
+​				O que esta entre {} o código Ruby irá interpretar
+
+​        nome = “Fabio”
+
+​		mensagem = “Bem vindo #{nome}”.  O que esta entre {} o código Ruby irá interpretar
+
+​		mensagem = “Bem vindo #{ 1 +3 }”. 
+
+​		juntar string ( + ) 
+
+​		mensagem = “bem-vindo “+ nome 
+
+​		Nome = ‘Fabio”
+
+​		Nome = %q( meutexto) 
+
+​		Interpolação pode ser feota com -> %Q
+
+
+
+​	*Heredoc* ->. Definir uma variável com texto muito grande 
+
+​		texto= <<˜TXT        delimitador ( TXT , ou o que eu quiser ) 
+
+​			Xxxxxxxxxxxx\n
+
+​			Xxxxxxxxxxxx\n
+
+​			Xxxxxxxxxxxx
+
+​		TXT 
 
 
 
 **[]  /  Array.new**  -> define / instância um objeto array ( lista de valores separados por virgula)
 
-​	lista = []   # um array vazio
+Criar lista -> [ ] , nao tem tipo especific
+
+Posso executar métodos nas listas -> nomes.lenght	
+
+lista = []   # um array vazio
 
 ​	lista.Array.new
 
