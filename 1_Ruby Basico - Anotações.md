@@ -1,6 +1,6 @@
-Condensados da estrutura básica do **RUBY**.
+**RUBY Básico ** : Anotações
 
-Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assunto 
+​	Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assunto 
 
 
 
@@ -15,8 +15,6 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 - Dinâmica , open source , foco em simplicidade e produtividade
 
 - Sintaxe elegante de leitura natural
-
-- 
 
 - irb é o ambie Ruby no terminal
 
