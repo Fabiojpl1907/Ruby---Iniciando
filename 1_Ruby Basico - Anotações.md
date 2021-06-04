@@ -6,6 +6,18 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 
 **Geral** 
 
+- Criado em 1995 por matz
+
+- Interpretada
+
+- Multi paradigma
+
+- Dinâmica , open source , foco em simplicidade e produtividade
+
+- Sintaxe elegante de leitura natural
+
+- 
+
 - irb é o ambie Ruby no terminal
 
 - Em ruby parenteses são opcionais 
@@ -28,13 +40,15 @@ Nota : **( )** apresentarão em qual arquivo de aula  estão os detalhes do assu
 
 - Gems - biblioteca de código compartilhas entre a comunidade :  [rubygems.org](http://rubygems.org)
 
+- Instalar do Gem via terminal -> gem install nome_da_gem
+
 - WSL - cria ambiente Linux no Windows
 
 - IDE -> RubyMine ( assinatura cara)
 
 - Nil -> Nulo
 
-- DEfinir função / método -> def ...end
+- Definir função / método -> def ...end
 
 - Exercício palindromo ( 12_palindromo.rb)
 
@@ -177,6 +191,8 @@ lista = []   # um array vazio
 ​	unless end
 
 ​	case when else end
+
+​    when   then 
 
 **operadores condicionais** 
 
